@@ -1,0 +1,208 @@
+body, html{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+h1{
+  margin: 0px;
+  margin-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+}
+
+.logo{
+  height: 80px;
+}
+
+.navw{
+  text-decoration: none;
+  border-bottom: .25rem solid transparent;
+  margin-right: 1rem;
+  color: #7a7a7a;
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  font-size: 3em;
+}
+
+.navw:hover, .navw:focus{
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+
+.menu .active{
+  color: #000000;
+  border-bottom-color: #000000;
+}
+
+.my_container{
+  display:grid;
+  grid-gap:0px;
+  grid-template-columns: auto;
+  grid-template-rows: 100px auto;
+  height:100%;
+}
+
+.menu{
+  padding-top:1em;
+}
+
+.main_content{
+  padding: 2em;
+  margin-bottom: 100px;
+}
+
+.main_text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 3em;
+}
+
+.policy_text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 3em;
+}
+
+.main_img{
+  height: 600;
+  margin-bottom: 1em;
+}
+
+.lgicon{
+  height:125px;
+  padding-right: 1.5em;
+}
+
+.button{
+  background-color: #7a7a7a;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover, .button:focus{
+  background-color: #bcbcbc;
+  color: #000000;
+}
+
+.footer{
+  grid-row: 8/9;
+  font-family: 'Roboto', sans-serif; 
+  font-weight:300;
+  font-size: 2em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+.footer a:hover, .footer a:focus{
+  text-decoration: none;
+  color: #000000;
+}
+
+.smicon{
+  height:30px;
+}
+
+.policy{
+  position:fixed; 
+  bottom:0px; 
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #FFFFFF;
+}
+
+@media (min-width: 1000px) {
+  .navw{
+    border-bottom: .25rem solid transparent;
+    margin-right: 1rem;
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+  }
+  
+  h1{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+  }
+  .logo{
+    height: 30px;
+  }
+  .my_container{
+    display:grid;
+    grid-gap:0px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 75px auto;
+    height:100%;
+  }
+
+  .menu{
+    grid-column:2/4;
+  }
+
+  .main_content{
+    grid-column:2/4;
+    padding: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .button{
+    background-color: #7a7a7a;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    margin-left: 2.5px;
+    margin-bottom: 10px;
+  }
+  
+  .main_text{
+    font-size: 1em;
+  }
+  
+  .policy_text{
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+
+  .main_img{
+    height: 400;
+  }
+  
+  .lgicon{
+    height:50px;
+    padding-right: 0.5em;
+  }
+
+  .footer{
+    grid-column:2/4;
+    font-size: 1em;
+  }
+  
+  .policy{}
+  
+  .smicon{
+    height:15px;
+  }
+}
+
+
